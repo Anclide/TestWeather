@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CityWeater+CoreDataClass.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    if (![[NSUserDefaults standardUserDefaults] objectForKey:@"isDataImported"]) {
+        [self deleteObjects];
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"StartCities" ofType:@"plist"];
+        NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
+        for (NSString *key in dict) {
+            //NSFetchRequest *req = [[NSFetchRequest alloc] initWithEntityName:@"TestWeather"];
+            CityWeater *city = [NSEntityDescription insertNewObjectForEntityForName:@"CityWeater" inManagedObjectContext:self.persistentContainer.viewContext];
+            city.cityName = key;
+            NSError *error;
+            if (![self.persistentContainer.viewContext save:&error]) {
+                NSLog(@"saving error");
+            }
+            
+        }
+        [[NSUserDefaults standardUserDefaults] setObject:@"OK" forKey:@"isDataImported"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
     // Override point for customization after application launch.
     return YES;
 }
@@ -93,6 +112,17 @@
         NSLog(@"Unresolved error %@, %@", error, error.userInfo);
         abort();
     }
+}
+
+- (void)deleteObjects {
+    NSManagedObjectContext *contex = self.persistentContainer.viewContext;
+    NSError *error = nil;
+    NSFetchRequest *req = [[NSFetchRequest alloc] initWithEntityName:@"CityWeater"];
+    NSArray *arr = [contex executeFetchRequest:req error:&error];
+    for (NSManagedObject *obj in arr) {
+        [contex deleteObject:obj];
+    }
+    [self saveContext];
 }
 
 @end

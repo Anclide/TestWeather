@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TWCityListViewController.h
 //  TestWeather
 //
 //  Created by Victor Bogatyrev on 18.01.17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TWCityListViewController : UITableViewController
 
 @end
-

@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72FC287152805AA20B0A2CF4 /* libPods-TestWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 821C9257F7BA108EE4003BB0 /* libPods-TestWeather.a */; };
 		7D1872981E2FB7C100618F77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1872971E2FB7C100618F77 /* main.m */; };
 		7D18729B1E2FB7C100618F77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D18729A1E2FB7C100618F77 /* AppDelegate.m */; };
-		7D18729E1E2FB7C100618F77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D18729D1E2FB7C100618F77 /* ViewController.m */; };
 		7D1872A11E2FB7C100618F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D18729F1E2FB7C100618F77 /* Main.storyboard */; };
 		7D1872A41E2FB7C100618F77 /* TestWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D1872A21E2FB7C100618F77 /* TestWeather.xcdatamodeld */; };
 		7D1872A61E2FB7C100618F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1872A51E2FB7C100618F77 /* Assets.xcassets */; };
 		7D1872A91E2FB7C100618F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1872A71E2FB7C100618F77 /* LaunchScreen.storyboard */; };
+		7D1872B61E2FB85000618F77 /* TWCityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1872B51E2FB85000618F77 /* TWCityListViewController.m */; };
+		7D1872BA1E2FB8C600618F77 /* TWNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1872B91E2FB8C600618F77 /* TWNetManager.m */; };
+		7D1872BF1E2FC45700618F77 /* TWDetailedCityInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1872BE1E2FC45700618F77 /* TWDetailedCityInfoController.m */; };
+		7D1872F01E30167F00618F77 /* TWAdditionalCitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1872EF1E30167F00618F77 /* TWAdditionalCitiesViewController.m */; };
+		7D1872F91E30D85700618F77 /* StartCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D1872F81E30D85700618F77 /* StartCities.plist */; };
+		7D650C501E32498500BFB063 /* TWAdditionalCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D650C4F1E32498500BFB063 /* TWAdditionalCity.m */; };
+		7D650C551E32568E00BFB063 /* TWAdditionalCityMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D650C541E32568E00BFB063 /* TWAdditionalCityMapper.m */; };
+		7DE9F15F1E325D5A00F32D94 /* TWDetailedCityInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9F15E1E325D5A00F32D94 /* TWDetailedCityInfo.m */; };
+		7DE9F1621E32638500F32D94 /* TWDetailedCityInfoMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9F1611E32638500F32D94 /* TWDetailedCityInfoMapper.m */; };
+		7DE9F1651E363CC100F32D94 /* TWScrollContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9F1641E363CC100F32D94 /* TWScrollContainerViewController.m */; };
+		7DE9F1681E366D1000F32D94 /* TWHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9F1671E366D1000F32D94 /* TWHelpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +32,39 @@
 		7D1872971E2FB7C100618F77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D1872991E2FB7C100618F77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D18729A1E2FB7C100618F77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7D18729C1E2FB7C100618F77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7D18729D1E2FB7C100618F77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7D1872A01E2FB7C100618F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D1872A31E2FB7C100618F77 /* TestWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestWeather.xcdatamodel; sourceTree = "<group>"; };
 		7D1872A51E2FB7C100618F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D1872A81E2FB7C100618F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D1872AA1E2FB7C100618F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D1872B41E2FB85000618F77 /* TWCityListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCityListViewController.h; sourceTree = "<group>"; };
+		7D1872B51E2FB85000618F77 /* TWCityListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCityListViewController.m; sourceTree = "<group>"; };
+		7D1872B81E2FB8C600618F77 /* TWNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWNetManager.h; sourceTree = "<group>"; };
+		7D1872B91E2FB8C600618F77 /* TWNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWNetManager.m; sourceTree = "<group>"; };
+		7D1872BD1E2FC45700618F77 /* TWDetailedCityInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWDetailedCityInfoController.h; sourceTree = "<group>"; };
+		7D1872BE1E2FC45700618F77 /* TWDetailedCityInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDetailedCityInfoController.m; sourceTree = "<group>"; };
+		7D1872EE1E30167F00618F77 /* TWAdditionalCitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAdditionalCitiesViewController.h; sourceTree = "<group>"; };
+		7D1872EF1E30167F00618F77 /* TWAdditionalCitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAdditionalCitiesViewController.m; sourceTree = "<group>"; };
+		7D1872F81E30D85700618F77 /* StartCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StartCities.plist; sourceTree = "<group>"; };
+		7D1873031E30DE7600618F77 /* CityWeater+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CityWeater+CoreDataClass.h"; sourceTree = "<group>"; };
+		7D1873041E30DE7600618F77 /* CityWeater+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CityWeater+CoreDataClass.m"; sourceTree = "<group>"; };
+		7D1873051E30DE7600618F77 /* CityWeater+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CityWeater+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7D1873061E30DE7600618F77 /* CityWeater+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CityWeater+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7D650C4E1E32498500BFB063 /* TWAdditionalCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAdditionalCity.h; sourceTree = "<group>"; };
+		7D650C4F1E32498500BFB063 /* TWAdditionalCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAdditionalCity.m; sourceTree = "<group>"; };
+		7D650C531E32568E00BFB063 /* TWAdditionalCityMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAdditionalCityMapper.h; sourceTree = "<group>"; };
+		7D650C541E32568E00BFB063 /* TWAdditionalCityMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAdditionalCityMapper.m; sourceTree = "<group>"; };
+		7DE9F15D1E325D5A00F32D94 /* TWDetailedCityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWDetailedCityInfo.h; sourceTree = "<group>"; };
+		7DE9F15E1E325D5A00F32D94 /* TWDetailedCityInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDetailedCityInfo.m; sourceTree = "<group>"; };
+		7DE9F1601E32638500F32D94 /* TWDetailedCityInfoMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWDetailedCityInfoMapper.h; sourceTree = "<group>"; };
+		7DE9F1611E32638500F32D94 /* TWDetailedCityInfoMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWDetailedCityInfoMapper.m; sourceTree = "<group>"; };
+		7DE9F1631E363CC100F32D94 /* TWScrollContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWScrollContainerViewController.h; sourceTree = "<group>"; };
+		7DE9F1641E363CC100F32D94 /* TWScrollContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWScrollContainerViewController.m; sourceTree = "<group>"; };
+		7DE9F1661E366D1000F32D94 /* TWHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHelpers.h; sourceTree = "<group>"; };
+		7DE9F1671E366D1000F32D94 /* TWHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHelpers.m; sourceTree = "<group>"; };
+		821C9257F7BA108EE4003BB0 /* libPods-TestWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0C2090953219B9237643A9 /* Pods-TestWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestWeather/Pods-TestWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4EEF167A3F92B762FB53AD /* Pods-TestWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestWeather/Pods-TestWeather.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +72,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FC287152805AA20B0A2CF4 /* libPods-TestWeather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50A84AE1D4B098AF56463D0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA0C2090953219B9237643A9 /* Pods-TestWeather.debug.xcconfig */,
+				FE4EEF167A3F92B762FB53AD /* Pods-TestWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7D18728A1E2FB7C100618F77 = {
 			isa = PBXGroup;
 			children = (
 				7D1872951E2FB7C100618F77 /* TestWeather */,
 				7D1872941E2FB7C100618F77 /* Products */,
+				50A84AE1D4B098AF56463D0B /* Pods */,
+				9E99EF80395D7B9353FC77F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +109,8 @@
 		7D1872951E2FB7C100618F77 /* TestWeather */ = {
 			isa = PBXGroup;
 			children = (
-				7D1872991E2FB7C100618F77 /* AppDelegate.h */,
-				7D18729A1E2FB7C100618F77 /* AppDelegate.m */,
-				7D18729C1E2FB7C100618F77 /* ViewController.h */,
-				7D18729D1E2FB7C100618F77 /* ViewController.m */,
-				7D18729F1E2FB7C100618F77 /* Main.storyboard */,
-				7D1872A51E2FB7C100618F77 /* Assets.xcassets */,
-				7D1872A71E2FB7C100618F77 /* LaunchScreen.storyboard */,
-				7D1872AA1E2FB7C100618F77 /* Info.plist */,
-				7D1872A21E2FB7C100618F77 /* TestWeather.xcdatamodeld */,
+				7D1872B11E2FB7FD00618F77 /* Models */,
+				7D1872B01E2FB7F500618F77 /* UI */,
 				7D1872961E2FB7C100618F77 /* Supporting Files */,
 			);
 			path = TestWeather;
@@ -77,9 +119,111 @@
 		7D1872961E2FB7C100618F77 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7D1872991E2FB7C100618F77 /* AppDelegate.h */,
+				7D18729A1E2FB7C100618F77 /* AppDelegate.m */,
+				7D1872A51E2FB7C100618F77 /* Assets.xcassets */,
+				7D1872AA1E2FB7C100618F77 /* Info.plist */,
+				7D1872A21E2FB7C100618F77 /* TestWeather.xcdatamodeld */,
 				7D1872971E2FB7C100618F77 /* main.m */,
+				7D1872F81E30D85700618F77 /* StartCities.plist */,
+				7DE9F1661E366D1000F32D94 /* TWHelpers.h */,
+				7DE9F1671E366D1000F32D94 /* TWHelpers.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D1872B01E2FB7F500618F77 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7D1872BC1E2FC42A00618F77 /* DetailedCityInfo */,
+				7D1872BB1E2FC41B00618F77 /* CityList */,
+				7D18729F1E2FB7C100618F77 /* Main.storyboard */,
+				7D1872A71E2FB7C100618F77 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		7D1872B11E2FB7FD00618F77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D1872F11E30C55A00618F77 /* Mappers */,
+				7D1872C01E2FCBD600618F77 /* Entities */,
+				7D1872B71E2FB8AC00618F77 /* Managers */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7D1872B71E2FB8AC00618F77 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				7D1872B81E2FB8C600618F77 /* TWNetManager.h */,
+				7D1872B91E2FB8C600618F77 /* TWNetManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		7D1872BB1E2FC41B00618F77 /* CityList */ = {
+			isa = PBXGroup;
+			children = (
+				7D1872B41E2FB85000618F77 /* TWCityListViewController.h */,
+				7D1872B51E2FB85000618F77 /* TWCityListViewController.m */,
+				7D1872EE1E30167F00618F77 /* TWAdditionalCitiesViewController.h */,
+				7D1872EF1E30167F00618F77 /* TWAdditionalCitiesViewController.m */,
+			);
+			name = CityList;
+			sourceTree = "<group>";
+		};
+		7D1872BC1E2FC42A00618F77 /* DetailedCityInfo */ = {
+			isa = PBXGroup;
+			children = (
+				7D1872BD1E2FC45700618F77 /* TWDetailedCityInfoController.h */,
+				7D1872BE1E2FC45700618F77 /* TWDetailedCityInfoController.m */,
+				7DE9F1631E363CC100F32D94 /* TWScrollContainerViewController.h */,
+				7DE9F1641E363CC100F32D94 /* TWScrollContainerViewController.m */,
+			);
+			name = DetailedCityInfo;
+			sourceTree = "<group>";
+		};
+		7D1872C01E2FCBD600618F77 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7D1872FC1E30DDCF00618F77 /* CoreData */,
+				7D650C4E1E32498500BFB063 /* TWAdditionalCity.h */,
+				7D650C4F1E32498500BFB063 /* TWAdditionalCity.m */,
+				7DE9F15D1E325D5A00F32D94 /* TWDetailedCityInfo.h */,
+				7DE9F15E1E325D5A00F32D94 /* TWDetailedCityInfo.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		7D1872F11E30C55A00618F77 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				7D650C531E32568E00BFB063 /* TWAdditionalCityMapper.h */,
+				7D650C541E32568E00BFB063 /* TWAdditionalCityMapper.m */,
+				7DE9F1601E32638500F32D94 /* TWDetailedCityInfoMapper.h */,
+				7DE9F1611E32638500F32D94 /* TWDetailedCityInfoMapper.m */,
+			);
+			name = Mappers;
+			sourceTree = "<group>";
+		};
+		7D1872FC1E30DDCF00618F77 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7D1873031E30DE7600618F77 /* CityWeater+CoreDataClass.h */,
+				7D1873041E30DE7600618F77 /* CityWeater+CoreDataClass.m */,
+				7D1873051E30DE7600618F77 /* CityWeater+CoreDataProperties.h */,
+				7D1873061E30DE7600618F77 /* CityWeater+CoreDataProperties.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		9E99EF80395D7B9353FC77F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				821C9257F7BA108EE4003BB0 /* libPods-TestWeather.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D1872AD1E2FB7C100618F77 /* Build configuration list for PBXNativeTarget "TestWeather" */;
 			buildPhases = (
+				D33C922D30AEF8868034FC02 /* [CP] Check Pods Manifest.lock */,
 				7D18728F1E2FB7C100618F77 /* Sources */,
 				7D1872901E2FB7C100618F77 /* Frameworks */,
 				7D1872911E2FB7C100618F77 /* Resources */,
+				63F79D0DAF7DAF62E0CB0705 /* [CP] Embed Pods Frameworks */,
+				751B4739F1D032914F2BE337 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,21 +290,79 @@
 			files = (
 				7D1872A91E2FB7C100618F77 /* LaunchScreen.storyboard in Resources */,
 				7D1872A61E2FB7C100618F77 /* Assets.xcassets in Resources */,
+				7D1872F91E30D85700618F77 /* StartCities.plist in Resources */,
 				7D1872A11E2FB7C100618F77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63F79D0DAF7DAF62E0CB0705 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestWeather/Pods-TestWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751B4739F1D032914F2BE337 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestWeather/Pods-TestWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D33C922D30AEF8868034FC02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D18728F1E2FB7C100618F77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D650C501E32498500BFB063 /* TWAdditionalCity.m in Sources */,
+				7DE9F15F1E325D5A00F32D94 /* TWDetailedCityInfo.m in Sources */,
+				7D1872B61E2FB85000618F77 /* TWCityListViewController.m in Sources */,
+				7D1872BF1E2FC45700618F77 /* TWDetailedCityInfoController.m in Sources */,
+				7DE9F1651E363CC100F32D94 /* TWScrollContainerViewController.m in Sources */,
+				7D1872BA1E2FB8C600618F77 /* TWNetManager.m in Sources */,
 				7D1872A41E2FB7C100618F77 /* TestWeather.xcdatamodeld in Sources */,
-				7D18729E1E2FB7C100618F77 /* ViewController.m in Sources */,
+				7D650C551E32568E00BFB063 /* TWAdditionalCityMapper.m in Sources */,
+				7D1872F01E30167F00618F77 /* TWAdditionalCitiesViewController.m in Sources */,
 				7D18729B1E2FB7C100618F77 /* AppDelegate.m in Sources */,
+				7DE9F1681E366D1000F32D94 /* TWHelpers.m in Sources */,
 				7D1872981E2FB7C100618F77 /* main.m in Sources */,
+				7DE9F1621E32638500F32D94 /* TWDetailedCityInfoMapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +480,7 @@
 		};
 		7D1872AE1E2FB7C100618F77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0C2090953219B9237643A9 /* Pods-TestWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KW8XLSK27E;
@@ -287,6 +493,7 @@
 		};
 		7D1872AF1E2FB7C100618F77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4EEF167A3F92B762FB53AD /* Pods-TestWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KW8XLSK27E;
@@ -316,6 +523,7 @@
 				7D1872AF1E2FB7C100618F77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
